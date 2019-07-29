@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#div1 button{
+			width:100px;
+			height:30px;
+			background:linear-gradient(#F6C8E5,#EDEDED);
+			border:none;
+			color:#fff;
+			font-weight:border;
+		}
+		#div1 div{
+			height:300px;
+			width:600px;
+			background:linear-gradient(#FFADD9,#ECBFD6);
+			display:none;
+		}
+		#div1.no1{
+			color:pink;
+			background:skyblue;
+		}
+	</style>
+	<script>
+		window.onload = function(){
+			var oDiv = document.getElementById("div1");
+			var oButton = document.getElementsBYTagName("button");
+			var oDivs = document.getElemenetsByTagName("div");
+
+		oDiv.onclick = function(ev){
+			var ev = event || window.event;
+			var target = e.target || window.event.srcElement;
+			if(var i = 0; i < target.length; i++){
+				
+			}
+
+
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<section id = 'div1'>
+		<button class = 'no1'>QAQ</button>
+		<button>OVO</button>
+		<button>TAT</button>
+		<div style = 'display:block'><img src="../images/img4.jpg" alt=""></div>
+		<div><img src="../images/3.jpg" alt=""></div>
+		<div><img src="../images/6.jpg" alt=""></div>
+	</section>
+</body>
+</html>
